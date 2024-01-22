@@ -11,6 +11,8 @@ if (isset($_POST["create"])) {
     
     if (mysqli_query($conn, $sql)) {
         echo "Successfully";
+        header("Location: index.php");
+        exit();
     } else {
         die("Something went wrong. Error: " . mysqli_error($conn));
     }
@@ -27,6 +29,8 @@ if (isset($_POST["edit"])) {
     
     if (mysqli_query($conn, $sql)) {
         echo "Successfully";
+        header("Location: index.php");
+        exit();
     } else {
         die("Something went wrong. Error: " . mysqli_error($conn));
     }
