@@ -16,10 +16,10 @@
         </header>
         <form action="process.php" method="post">
             <div class="form-element my-4">
-                <input type="text" class="form-control" name="title" placeholder="Book Tittle: ">
+                <input type="text" class="form-control" name="title" placeholder="Book Title">
             </div>
             <div class="form-element my-4">
-                <input type="text" class="form-control" name="author" placeholder="Author Name: ">
+                <input type="text" class="form-control" name="author" placeholder="Author Name">
             </div>
             <div class="form-element my-4">
                 <select name="type" class="form-control">
@@ -31,7 +31,7 @@
                 </select>
             </div>
             <div class="form-element my-4">
-                <input type="text" class="form-control" name="descriptions" placeholder="Book Descriptions: ">
+                <input type="text" class="form-control" name="descriptions" placeholder="Book Descriptions">
             </div>
             <div class="form-element">
                 <input type="Submit" class="btn btn-success" name="create" value="Add Book">
